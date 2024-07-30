@@ -1,0 +1,52 @@
+.events-container {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.events-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.events-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.event-reverse {
+    flex-direction: row-reverse;
+}
+
+.event-description {
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+
+.event h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.event-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
